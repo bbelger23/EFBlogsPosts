@@ -50,3 +50,4 @@ C:\Users\belge\OneDrive\Documents\.Net Database Programming\EFBlogsPosts\obj\Deb
 C:\Users\belge\OneDrive\Documents\.Net Database Programming\EFBlogsPosts\obj\Debug\net5.0\ref\EFBlogsPosts.dll
 C:\Users\belge\OneDrive\Documents\.Net Database Programming\EFBlogsPosts\obj\Debug\net5.0\EFBlogsPosts.pdb
 C:\Users\belge\OneDrive\Documents\.Net Database Programming\EFBlogsPosts\obj\Debug\net5.0\EFBlogsPosts.genruntimeconfig.cache
+C:\Users\belge\OneDrive\Documents\.Net Database Programming\EFBlogsPosts\bin\Debug\net5.0\appsettings.json
