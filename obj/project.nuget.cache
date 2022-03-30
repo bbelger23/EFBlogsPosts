@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6xMo2CLYycGV6uep+NGzCPHDqkGUPi6iEeo3aE+vA8W2s+4e7/ysHaRTcT7U3kfJv8eLrhHWaFJtFVuLDtE0jw==",
+  "dgSpecHash": "lrsGMHNpgqUtgkfAHwxnxJrWlvxFosZvwBG8qiAZEvoF/m/dJerd2im4FqYWUvnVPH7MJqRyDlNP9IN9bjc0Ww==",
   "success": true,
   "projectFilePath": "C:\\Users\\belge\\OneDrive\\Documents\\.Net Database Programming\\EFBlogsPosts\\EFBlogsPosts.csproj",
   "expectedPackageFiles": [
@@ -17,6 +17,7 @@
     "C:\\Users\\belge\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\5.0.15\\microsoft.entityframeworkcore.tools.5.0.15.nupkg.sha512",
     "C:\\Users\\belge\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\belge\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
+    "C:\\Users\\belge\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",
     "C:\\Users\\belge\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\belge\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.2\\microsoft.extensions.dependencyinjection.5.0.2.nupkg.sha512",
     "C:\\Users\\belge\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",

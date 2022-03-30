@@ -5,7 +5,7 @@
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Humanizer.dll": {}
+          "lib/netstandard2.0/_._": {}
         },
         "runtime": {
           "lib/netstandard2.0/Humanizer.dll": {}
@@ -133,7 +133,7 @@
           "Microsoft.EntityFrameworkCore.Relational": "5.0.15"
         },
         "compile": {
-          "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Design.dll": {}
+          "lib/netstandard2.1/_._": {}
         },
         "runtime": {
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Design.dll": {}
@@ -206,6 +206,19 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Primitives": "5.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration.Abstractions/5.0.0": {
@@ -1872,6 +1885,26 @@
         "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.xml",
         "microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
         "microsoft.extensions.caching.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.Extensions.Configuration/5.0.0": {
+      "sha512": "LN322qEKHjuVEhhXueTUe7RNePooZmS8aGid5aK2woX3NPjSnONFyKUc6+JknOS6ce6h2tCLfKPTBXE3mN/6Ag==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Configuration.dll",
+        "lib/net461/Microsoft.Extensions.Configuration.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.xml",
+        "microsoft.extensions.configuration.5.0.0.nupkg.sha512",
+        "microsoft.extensions.configuration.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
@@ -5913,6 +5946,7 @@
     "net5.0": [
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.15",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.15",
+      "Microsoft.Extensions.Configuration >= 5.0.0",
       "NLog.Web.AspNetCore >= 4.14.0"
     ]
   },
@@ -5962,6 +5996,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[5.0.15, )"
+          },
+          "Microsoft.Extensions.Configuration": {
+            "target": "Package",
+            "version": "[5.0.0, )"
           },
           "NLog.Web.AspNetCore": {
             "target": "Package",

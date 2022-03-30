@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 
 namespace EFBlogsPosts
 {
@@ -15,7 +16,10 @@ namespace EFBlogsPosts
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            
+            IConfiguration config = new ConfigurationBuilder()
+                .AddJsonFile("appsettings.json", true, true)
+                .Build();
+            optionsBuilder.UseSqlServer(@config["BloggingContext:ConnectionString"]);
         }
     }
 }
