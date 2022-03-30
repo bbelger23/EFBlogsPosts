@@ -11,6 +11,7 @@ namespace EFBlogsPosts
         static void Main(string[] args)
         {
             string selection = "";
+            var db = new BloggingContext();
             logger.Info("Program started");
 
             Console.WriteLine("Enter your selection:");
@@ -25,7 +26,7 @@ namespace EFBlogsPosts
             if (selection == "1") 
             {
                 // Display all Blogs from the database
-                var db = new BloggingContext();
+                
                 var query = db.Blogs.OrderBy(b => b.Name);
 
                 var total = db.Blogs.Count();
@@ -34,8 +35,26 @@ namespace EFBlogsPosts
                 {
                     Console.WriteLine(item.Name);
                 }
-            }
+            } 
+            else if (selection == "2")
+            {
+                // Create and save a new Blog
+                Console.Write("Enter a name for a new Blog: ");
+                var name = Console.ReadLine();
 
+                if (name == "")
+                {
+                    logger.Error("Blog name cannot be null");
+                }
+                else 
+                {
+                    var blog = new Blog { Name = name };
+
+                    db.AddBlog(blog);
+                    logger.Info("Blog added - {name}", name);
+                }
+                
+            }
             logger.Info("Program ended");
         }
     }

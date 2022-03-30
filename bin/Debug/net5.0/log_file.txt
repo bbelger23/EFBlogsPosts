@@ -2,3 +2,16 @@
 2022-03-29 20:58:38.9895|INFO|EFBlogsPosts.Program|Program ended
 2022-03-29 21:08:53.8973|INFO|EFBlogsPosts.Program|Program started
 2022-03-29 21:08:56.1967|INFO|EFBlogsPosts.Program|Program ended
+2022-03-29 21:13:47.7174|INFO|EFBlogsPosts.Program|Program started
+2022-03-29 21:13:52.4384|INFO|EFBlogsPosts.Program|Blog added - "Kitten"
+2022-03-29 21:13:52.4384|INFO|EFBlogsPosts.Program|Program ended
+2022-03-29 21:13:59.1833|INFO|EFBlogsPosts.Program|Program started
+2022-03-29 21:14:01.7525|INFO|EFBlogsPosts.Program|Program ended
+2022-03-29 21:16:57.5414|INFO|EFBlogsPosts.Program|Program started
+2022-03-29 21:16:58.1571|INFO|EFBlogsPosts.Program|Program ended
+2022-03-29 21:19:07.2850|INFO|EFBlogsPosts.Program|Program started
+2022-03-29 21:19:11.2413|ERROR|EFBlogsPosts.Program|Blog name cannot be null
+2022-03-29 21:19:11.2413|INFO|EFBlogsPosts.Program|Program ended
+2022-03-29 21:19:57.4136|INFO|EFBlogsPosts.Program|Program started
+2022-03-29 21:20:01.1202|INFO|EFBlogsPosts.Program|Blog added - "Dog"
+2022-03-29 21:20:01.1264|INFO|EFBlogsPosts.Program|Program ended
