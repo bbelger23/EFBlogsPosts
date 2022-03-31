@@ -15,3 +15,48 @@
 2022-03-29 21:19:57.4136|INFO|EFBlogsPosts.Program|Program started
 2022-03-29 21:20:01.1202|INFO|EFBlogsPosts.Program|Blog added - "Dog"
 2022-03-29 21:20:01.1264|INFO|EFBlogsPosts.Program|Program ended
+2022-03-30 19:43:52.7215|INFO|EFBlogsPosts.Program|Program started
+2022-03-30 19:43:55.4473|INFO|EFBlogsPosts.Program|Program ended
+2022-03-30 19:46:24.9157|INFO|EFBlogsPosts.Program|Program started
+2022-03-30 19:46:26.7242|INFO|EFBlogsPosts.Program|Program ended
+2022-03-30 19:52:40.9223|INFO|EFBlogsPosts.Program|Program started
+2022-03-30 19:52:43.0431|INFO|EFBlogsPosts.Program|Program ended
+2022-03-30 19:58:23.2375|INFO|EFBlogsPosts.Program|Program started
+2022-03-30 19:58:26.4698|INFO|EFBlogsPosts.Program|Program ended
+2022-03-30 20:04:09.6640|INFO|EFBlogsPosts.Program|Program started
+2022-03-30 20:04:11.8098|INFO|EFBlogsPosts.Program|Program ended
+2022-03-30 20:05:17.7979|INFO|EFBlogsPosts.Program|Program started
+2022-03-30 20:05:19.8564|INFO|EFBlogsPosts.Program|Program ended
+2022-03-30 20:06:54.0999|INFO|EFBlogsPosts.Program|Program started
+2022-03-30 20:06:56.4058|INFO|EFBlogsPosts.Program|Program ended
+2022-03-30 20:28:48.0970|INFO|EFBlogsPosts.Program|Program started
+2022-03-30 20:28:50.6913|INFO|EFBlogsPosts.Program|Program ended
+2022-03-30 20:30:35.3863|INFO|EFBlogsPosts.Program|Program started
+2022-03-30 20:30:37.2634|INFO|EFBlogsPosts.Program|Program ended
+2022-03-30 20:46:36.3069|INFO|EFBlogsPosts.Program|Program started
+2022-03-30 20:46:38.5279|INFO|EFBlogsPosts.Program|Program ended
+2022-03-30 20:56:42.4386|INFO|EFBlogsPosts.Program|Program started
+2022-03-30 20:56:49.5662|INFO|EFBlogsPosts.Program|Program ended
+2022-03-30 21:02:26.0334|INFO|EFBlogsPosts.Program|Program started
+2022-03-30 21:04:00.3986|INFO|EFBlogsPosts.Program|Program started
+2022-03-30 21:04:03.7229|ERROR|EFBlogsPosts.Program|Blog name cannot be null
+2022-03-30 21:04:03.7229|INFO|EFBlogsPosts.Program|Program ended
+2022-03-30 21:12:15.2076|INFO|EFBlogsPosts.Program|Program started
+2022-03-30 21:12:21.3889|ERROR|EFBlogsPosts.Program|Invalid Blog ID
+2022-03-30 21:12:21.3889|INFO|EFBlogsPosts.Program|Program ended
+2022-03-30 21:13:06.8896|INFO|EFBlogsPosts.Program|Program started
+2022-03-30 21:13:10.3460|INFO|EFBlogsPosts.Program|Program ended
+2022-03-30 21:34:38.9760|INFO|EFBlogsPosts.Program|Program started
+2022-03-30 21:34:54.3793|INFO|EFBlogsPosts.Program|Program ended
+2022-03-30 21:35:58.3895|INFO|EFBlogsPosts.Program|Program started
+2022-03-30 21:36:07.7933|INFO|EFBlogsPosts.Program|Program ended
+2022-03-30 21:37:24.9227|INFO|EFBlogsPosts.Program|Program started
+2022-03-30 21:37:30.3364|ERROR|EFBlogsPosts.Program|Post title cannot be null
+2022-03-30 21:37:32.9773|INFO|EFBlogsPosts.Program|Post added - 
+2022-03-30 21:37:32.9773|INFO|EFBlogsPosts.Program|Program ended
+2022-03-30 21:38:55.2849|INFO|EFBlogsPosts.Program|Program started
+2022-03-30 21:38:59.2770|ERROR|EFBlogsPosts.Program|Post title cannot be null
+2022-03-30 21:38:59.2770|INFO|EFBlogsPosts.Program|Program ended
+2022-03-30 21:39:12.6764|INFO|EFBlogsPosts.Program|Program started
+2022-03-30 21:39:29.1273|INFO|EFBlogsPosts.Program|Post added - Litter box
+2022-03-30 21:39:29.1273|INFO|EFBlogsPosts.Program|Program ended

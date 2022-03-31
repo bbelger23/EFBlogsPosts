@@ -55,6 +55,55 @@ namespace EFBlogsPosts
                 }
                 
             }
+            else if (selection == "3")
+            {
+                // Create and save new Post
+                Console.WriteLine("Select the blog you would like to post to");
+
+                // Display all Blogs for user to chose from
+                foreach (var b in db.Blogs)
+                {
+                    Console.WriteLine($"{b.BlogId}. {b.Name}");
+                }
+
+                try{
+                    int option = Convert.ToInt32(Console.ReadLine());
+
+                    Console.WriteLine("Enter the Post title");
+
+                    var title = Console.ReadLine();
+
+                    if (title == "")
+                    {
+                        logger.Error("Post title cannot be null");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Enter the Post content");
+
+                        var content = Console.ReadLine();
+
+                        var post = new Post();
+
+                        post.Title = title;
+                        post.Content = content;
+                        post.BlogId = option;
+
+                        db.Posts.Add(post);
+                        db.SaveChanges();
+
+                        logger.Info($"Post added - {title}");
+                    }
+                }
+                catch
+                {
+                    logger.Error("Invalid Blog ID");
+                }
+            }
+            else if (selection == "4")
+            {
+
+            }
             logger.Info("Program ended");
         }
     }
