@@ -25,6 +25,7 @@ namespace EFBlogsPosts
 
             if (selection == "1") 
             {
+                logger.Info("Option \"1\" selected");
                 // Display all Blogs from the database
                 
                 var query = db.Blogs.OrderBy(b => b.Name);
@@ -38,6 +39,7 @@ namespace EFBlogsPosts
             } 
             else if (selection == "2")
             {
+                logger.Info("Option \"2\" selected");
                 // Create and save a new Blog
                 Console.Write("Enter a name for a new Blog: ");
                 var name = Console.ReadLine();
@@ -57,6 +59,7 @@ namespace EFBlogsPosts
             }
             else if (selection == "3")
             {
+                logger.Info("Option \"3\" selected");
                 // Create and save new Post
                 Console.WriteLine("Select the blog you would like to post to");
 
@@ -66,7 +69,8 @@ namespace EFBlogsPosts
                     Console.WriteLine($"{b.BlogId}. {b.Name}");
                 }
 
-                try{
+                try
+                {
                     int option = Convert.ToInt32(Console.ReadLine());
 
                     Console.WriteLine("Enter the Post title");
@@ -102,7 +106,64 @@ namespace EFBlogsPosts
             }
             else if (selection == "4")
             {
+                logger.Info("Option \"4\" selected");
+                // Display posts
+                Console.WriteLine("Select the bolg's posts to display");
+                Console.WriteLine("0. Posts from all blogs");
+                foreach (var b in db.Blogs)
+                {
+                    Console.WriteLine($"{b.BlogId}. Posts from {b.Name}");
+                }
+                
+                int choice = Convert.ToInt32(Console.ReadLine());
 
+                if (choice == 0)
+                {
+                    var blogPost = db.Blogs
+                                    .Join(
+                                        db.Posts,
+                                        blog => blog.BlogId,
+                                        post => post.BlogId,
+                                        (blog , Post) => new
+                                        {
+                                            BlogName = blog.Name,
+                                            BlogId = blog.BlogId,
+                                            BlogPost = Post.Title,
+                                            BlogContent = Post.Content
+                                        }
+                                    ).ToList();
+                                    var total = db.Posts.Count();
+                                    Console.WriteLine($"{total} post(s) returned");
+                                    foreach(var blog in blogPost)
+                                    {
+				                        Console.WriteLine("Blog Name: {0} \n Post Title: {1} \n Post Content: {2} \n", blog.BlogName, blog.BlogPost, blog.BlogContent);
+                                    }
+                } else if (choice != 0)
+                {
+                    
+                    var blogPost = db.Blogs
+                                    .Where(b => b.BlogId == choice)
+                                    .Join(
+                                        db.Posts,
+                                        blog => blog.BlogId,
+                                        post => post.BlogId,
+                                        (blog , Post) => new
+                                        {
+                                            BlogName = blog.Name,
+                                            BlogId = blog.BlogId,
+                                            BlogPost = Post.Title,
+                                            BlogContent = Post.Content
+                                        }
+
+                                    ).ToList();
+                                    var total = blogPost.Count();
+                                    Console.WriteLine($"{total} post(s) returned");
+                                    foreach(var blog in blogPost)
+                                    {
+				                        Console.WriteLine("Blog Name: {0} \n Post Title: {1} \n Post Content: {2} \n", blog.BlogName, blog.BlogPost, blog.BlogContent);
+                                    }
+                }
+                
             }
             logger.Info("Program ended");
         }

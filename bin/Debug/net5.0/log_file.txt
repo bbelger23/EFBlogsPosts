@@ -60,3 +60,62 @@
 2022-03-30 21:39:12.6764|INFO|EFBlogsPosts.Program|Program started
 2022-03-30 21:39:29.1273|INFO|EFBlogsPosts.Program|Post added - Litter box
 2022-03-30 21:39:29.1273|INFO|EFBlogsPosts.Program|Program ended
+2022-03-31 18:55:19.8311|INFO|EFBlogsPosts.Program|Program started
+2022-03-31 18:55:33.2690|ERROR|EFBlogsPosts.Program|There are no Blogs saved with that ID
+2022-03-31 18:55:45.7153|ERROR|EFBlogsPosts.Program|Invalid Blog ID
+2022-03-31 18:55:46.3620|ERROR|EFBlogsPosts.Program|Invalid Blog ID
+2022-03-31 18:55:46.3620|INFO|EFBlogsPosts.Program|Program ended
+2022-03-31 18:56:56.4388|INFO|EFBlogsPosts.Program|Program started
+2022-03-31 18:57:12.2516|ERROR|EFBlogsPosts.Program|Post title cannot be null
+2022-03-31 18:57:12.2516|INFO|EFBlogsPosts.Program|Program ended
+2022-03-31 18:59:20.6555|INFO|EFBlogsPosts.Program|Program started
+2022-03-31 18:59:24.8427|ERROR|EFBlogsPosts.Program|Post title cannot be null
+2022-03-31 18:59:24.8443|INFO|EFBlogsPosts.Program|Program ended
+2022-03-31 19:09:23.9150|INFO|EFBlogsPosts.Program|Program started
+2022-03-31 19:09:25.3170|INFO|EFBlogsPosts.Program|Option "4" selected
+2022-03-31 19:09:26.4314|INFO|EFBlogsPosts.Program|Program ended
+2022-03-31 19:10:07.6014|INFO|EFBlogsPosts.Program|Program started
+2022-03-31 19:10:09.4231|INFO|EFBlogsPosts.Program|Option "4" selected
+2022-03-31 19:10:10.5376|INFO|EFBlogsPosts.Program|Program ended
+2022-03-31 19:29:26.1938|INFO|EFBlogsPosts.Program|Program started
+2022-03-31 19:29:28.1687|INFO|EFBlogsPosts.Program|Option "4" selected
+2022-03-31 19:29:29.3327|INFO|EFBlogsPosts.Program|Program ended
+2022-03-31 19:31:18.6060|INFO|EFBlogsPosts.Program|Program started
+2022-03-31 19:31:19.5331|INFO|EFBlogsPosts.Program|Option "4" selected
+2022-03-31 19:31:24.3486|INFO|EFBlogsPosts.Program|Program ended
+2022-04-06 18:46:14.8239|INFO|EFBlogsPosts.Program|Program started
+2022-04-06 18:46:16.4569|INFO|EFBlogsPosts.Program|Option "4" selected
+2022-04-06 18:46:23.1116|INFO|EFBlogsPosts.Program|Program ended
+2022-04-06 18:48:12.1673|INFO|EFBlogsPosts.Program|Program started
+2022-04-06 18:48:13.0746|INFO|EFBlogsPosts.Program|Option "4" selected
+2022-04-06 18:48:15.1071|INFO|EFBlogsPosts.Program|Program ended
+2022-04-06 18:50:08.2191|INFO|EFBlogsPosts.Program|Program started
+2022-04-06 18:50:10.0777|INFO|EFBlogsPosts.Program|Option "4" selected
+2022-04-06 18:50:11.9199|INFO|EFBlogsPosts.Program|Program ended
+2022-04-06 18:51:47.6226|INFO|EFBlogsPosts.Program|Program started
+2022-04-06 18:51:48.3297|INFO|EFBlogsPosts.Program|Option "4" selected
+2022-04-06 18:51:50.2024|INFO|EFBlogsPosts.Program|Program ended
+2022-04-06 18:52:41.2111|INFO|EFBlogsPosts.Program|Program started
+2022-04-06 18:52:42.3656|INFO|EFBlogsPosts.Program|Option "4" selected
+2022-04-06 18:52:44.7011|INFO|EFBlogsPosts.Program|Program ended
+2022-04-06 18:54:21.0793|INFO|EFBlogsPosts.Program|Program started
+2022-04-06 18:54:22.7015|INFO|EFBlogsPosts.Program|Option "4" selected
+2022-04-06 18:54:25.0183|INFO|EFBlogsPosts.Program|Program ended
+2022-04-06 18:54:36.8512|INFO|EFBlogsPosts.Program|Program started
+2022-04-06 18:54:39.0554|INFO|EFBlogsPosts.Program|Option "4" selected
+2022-04-06 18:54:42.6168|INFO|EFBlogsPosts.Program|Program ended
+2022-04-06 18:55:52.2527|INFO|EFBlogsPosts.Program|Program started
+2022-04-06 18:55:52.9332|INFO|EFBlogsPosts.Program|Option "4" selected
+2022-04-06 18:55:54.7358|INFO|EFBlogsPosts.Program|Program ended
+2022-04-06 18:56:07.2661|INFO|EFBlogsPosts.Program|Program started
+2022-04-06 18:56:08.7515|INFO|EFBlogsPosts.Program|Option "4" selected
+2022-04-06 18:56:11.2204|INFO|EFBlogsPosts.Program|Program ended
+2022-04-06 18:56:34.5570|INFO|EFBlogsPosts.Program|Program started
+2022-04-06 18:56:36.7322|INFO|EFBlogsPosts.Program|Option "4" selected
+2022-04-06 18:56:39.7648|INFO|EFBlogsPosts.Program|Program ended
+2022-04-06 18:58:37.0516|INFO|EFBlogsPosts.Program|Program started
+2022-04-06 18:58:37.8239|INFO|EFBlogsPosts.Program|Option "4" selected
+2022-04-06 18:58:39.6622|INFO|EFBlogsPosts.Program|Program ended
+2022-04-06 18:58:45.4977|INFO|EFBlogsPosts.Program|Program started
+2022-04-06 18:58:48.5000|INFO|EFBlogsPosts.Program|Option "4" selected
+2022-04-06 18:58:50.6826|INFO|EFBlogsPosts.Program|Program ended
