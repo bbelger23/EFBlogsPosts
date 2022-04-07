@@ -132,7 +132,7 @@ namespace EFBlogsPosts
                                             BlogContent = Post.Content
                                         }
                                     ).ToList();
-                                    var total = db.Posts.Count();
+                                    var total = blogPost.Count();
                                     Console.WriteLine($"{total} post(s) returned");
                                     foreach(var blog in blogPost)
                                     {
